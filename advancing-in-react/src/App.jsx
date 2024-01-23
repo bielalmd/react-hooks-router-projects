@@ -1,6 +1,5 @@
-import logo from './logo.svg';
 import './App.css';
-
+import Sky from './assets/sky.jpg'
 function App() {
   return (
     <div className='App'>
@@ -8,6 +7,10 @@ function App() {
       {/* Imagem em public */}
       <div>
         <img src="/img1.jpg" alt="Paisagem com pôr do sol e arvores" />
+      </div>
+      {/* Imagem em src */}
+      <div>
+        <img src={Sky} width="720" height="450" alt="Ceu escuro com lua no meio" />
       </div>
     </div>
   );
