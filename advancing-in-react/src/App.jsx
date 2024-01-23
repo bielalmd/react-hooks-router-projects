@@ -1,5 +1,6 @@
 import './App.css';
 import Sky from './assets/sky.jpg'
+import ManageData from './components/ManageData';
 function App() {
   return (
     <div className='App'>
@@ -12,6 +13,7 @@ function App() {
       <div>
         <img src={Sky} width="720" height="450" alt="Ceu escuro com lua no meio" />
       </div>
+      <ManageData/>
     </div>
   );
 }
