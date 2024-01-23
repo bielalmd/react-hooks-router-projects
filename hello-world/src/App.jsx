@@ -4,6 +4,7 @@ import TemplateExpressions from './components/TemplateExpression';
 
 // Styles
 import './App.css';
+import MyComponent from './components/MyComponent';
 
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
     <div className="App">
       <FirstComponent/>
       <TemplateExpressions/>
+      <MyComponent/>
       
     </div>
   );
