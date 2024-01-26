@@ -1,5 +1,6 @@
 import './App.css';
 import Sky from './assets/sky.jpg'
+import ListRender from './components/ListRender';
 import ManageData from './components/ManageData';
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <img src={Sky} width="720" height="450" alt="Ceu escuro com lua no meio" />
       </div>
       <ManageData/>
+      <ListRender/>
     </div>
   );
 }
